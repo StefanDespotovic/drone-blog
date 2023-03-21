@@ -1,0 +1,51 @@
+.sidebar {
+  width: 1vw;
+  height: 88vh;
+  position: fixed;
+  top: 7vh;
+  left: 0;
+  background: linear-gradient(
+    180deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.1);
+  padding: 2vw;
+  border-bottom-right-radius: 80px;
+}
+
+.sidebar ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  margin-top: -5vh;
+}
+.github:hover {
+  transition: 0.5s;
+  color: #ffffff;
+}
+.youtube:hover {
+  transition: 0.5s;
+  color: #ff0000;
+}
+.blue:hover {
+  transition: 0.5s;
+  color: #0072b1;
+}
+
+.sidebar li {
+  margin: 1vh 0;
+  margin-top: 4vh;
+  position: relative;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #000;
+  font-size: 1.5vw;
+}
+@media (max-width: 768px) {
+  .sidebar {
+    display: none;
+  }
+}

@@ -1,0 +1,165 @@
+.Image-container {
+  margin-left: 6%;
+  width: 50vw;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 240, 246, 1) 0%,
+    rgba(233, 243, 255, 1) 100%
+  );
+  border-radius: 2vh;
+}
+
+.buttons-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  margin-top: 3%;
+  margin-left: 4vw;
+  margin-right: 4vw;
+}
+
+.button {
+  padding: 1vh 2vw;
+  background-color: #007bff;
+  color: white;
+  border-radius: 5px;
+  font-size: 1.2vw;
+  border: none;
+  cursor: pointer;
+  width: 10vw;
+  margin-top: 3vh;
+}
+
+.button:hover {
+  background-color: #0069d9;
+}
+.button.active {
+  background: linear-gradient(
+    240deg,
+    rgba(238, 174, 202, 1) 0%,
+    rgba(148, 187, 233, 1) 100%
+  );
+}
+
+.dummy-container {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 5vh !important;
+  width: 50vw;
+  margin: 0 auto;
+  transition: all 0.3s ease-in;
+  padding-bottom: 6vh;
+}
+.dummy-container h3 {
+  font-size: 1.3vw;
+}
+.dummy-container p {
+  font-size: 1vw;
+}
+.dummy {
+  margin-left: 3vw;
+  background-color: #fff;
+  border-radius: 0.5rem;
+  box-shadow: 0.05rem 0.1rem 0.3rem -0.03rem rgba(0, 0, 0, 0.45);
+  padding-bottom: 1rem;
+  overflow: hidden;
+  width: 25%;
+  margin-top: 2vh;
+  transition: transform 0.3s ease-in-out;
+}
+.dummy:hover {
+  transform: scale(1.1);
+}
+
+.main-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.imageContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 14.5vh; /*  fixed height for the container */
+  overflow: hidden; /* hide any overflow to maintain aspect ratio */
+}
+
+.dummy-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain; /* specify how the image should fit inside the container */
+}
+
+.imageContainerModal {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  height: 30vh; /* fixed height for the container */
+  overflow: hidden; /* hide any overflow to maintain aspect ratio */
+}
+.dummy-image-modal {
+  margin-right: 21vw;
+  width: 100%;
+  height: 90%;
+  object-fit: contain; /* specify how the image should fit inside the container */
+  transition: transform 0.4s;
+}
+.dummy-image-modal:hover {
+  transform: scale(1.04);
+}
+.dummy-video-modal {
+  margin-right: 17vw;
+  width: 50%;
+  height: 80%;
+  object-fit: contain;
+}
+
+.description {
+  margin-top: -20vh;
+  margin-left: 22vw;
+}
+#map {
+  position: relative;
+  overflow: hidden;
+  width: 85%;
+  height: 30vh;
+}
+
+.message-container {
+  margin-top: 10vh;
+}
+
+@media only screen and (max-width: 786px) {
+  .Image-container {
+    width: 87vw;
+    margin-left: 3vw;
+  }
+  .dummy-container {
+    width: 100vw;
+  }
+  .dummy-image-modal {
+    margin-right: 0vw !important;
+    height: 100% !important;
+  }
+  .dummy-video-modal {
+    margin-right: 0vw !important;
+    height: 60% !important;
+    width: 100% !important;
+  }
+  .description {
+    margin-top: -1vh !important;
+    margin-left: 0vw !important;
+  }
+  .imageContainerModal {
+    margin-right: 0vw !important;
+    width: 70vw !important;
+    margin-top: 5%;
+  }
+  #map {
+    width: 100%;
+    height: 20vh;
+  }
+}

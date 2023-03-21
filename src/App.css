@@ -1,0 +1,71 @@
+body {
+  font-family: "Roboto", sans-serif;
+}
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+.navbar {
+  z-index: 1;
+}
+.profile {
+  flex-basis: calc(75vw - 10vw);
+  min-height: 30vh;
+  margin-left: 6.2vw;
+}
+
+.buttons {
+  flex-basis: calc(75vw - 10vw);
+  min-height: 10vh;
+  margin-left: 2.4vw;
+}
+
+.drone-specs {
+  margin-top: 1vh;
+  flex-basis: 25vw;
+  min-height: 30vh;
+  margin-left: 66vw;
+  position: absolute !important;
+  z-index: -1;
+}
+
+.new-video {
+  flex-basis: 25vw;
+  min-height: 30vh;
+  margin-left: 66vw;
+  margin-top: 47vh;
+  position: absolute !important;
+  z-index: 0;
+}
+
+@media (max-width: 768px) {
+  .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .profile {
+    flex-basis: unset;
+  }
+
+  .buttons {
+    flex-basis: unset;
+    margin-top: -9vh;
+  }
+
+  .drone-specs {
+    flex-basis: unset;
+    margin-top: -12vh;
+    position: static !important;
+    margin-left: 6vw;
+  }
+
+  .new-video {
+    flex-basis: unset;
+    margin-left: 0vw;
+    margin-top: 0vh;
+    position: static !important;
+  }
+}
