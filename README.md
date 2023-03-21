@@ -1,70 +1,25 @@
-# Getting Started with Create React App
+# Personal Drone Blog
+This is a personal drone blog created using React, Firebase, Google Maps API and YouTube API. It features an upload button and a login button, as well as a latest video section (from Yt API), profile section, and drone specification module. Please note that the login button is currently only for the admin (you can login with provided credentials) so they can upload new content.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Demo
+[Click here](https://personaldroneblog.netlify.app/) to see a live demo of the site.
 
-## Available Scripts
+## Technologies Used
+React
+Firebase
+Google Maps API
+YouTube API
 
-In the project directory, you can run:
+# Features
 
-### `npm start`
+## Upload Button
+The upload button allows the admin to upload new content, such as blog photos, or videos. The content is stored on Firebase and can be accessed through the blog.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Login Button
+The login button is currently only for the admin, who can use it to access the upload button and add new content to the site. Other users can view the content without logging in.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## Latest Video Section
+The latest video section displays the most recent video that has been uploaded to the site. Users can watch the video directly on the site or click through to the YouTube page to view it there. 
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+## Conclusion
+In conclusion, this is my first React project, which I created from scratch using Firebase, Google Maps API and YouTube API. The project features an upload button and a login button, as well as a latest video section, profile section, and drone specification module. I learned a lot during the development process and hope to continue improving and adding new features in future versions. Future versions may include additional features, such as comment and like sections, new user registration and more.
